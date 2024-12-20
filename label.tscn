@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://da24l6yecm4es"]
+
+[node name="Label" type="Label"]
+anchors_preset = -1
+anchor_left = 0.018
+anchor_top = 0.036
+anchor_right = 0.018
+anchor_bottom = 0.036
+offset_left = 331.264
+offset_top = 193.672
+offset_right = 513.264
+offset_bottom = 252.672
+text = "Hello World"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 2.068
+anchor_bottom = 2.068
+offset_left = 162.0
+offset_top = -49.012
+offset_right = 271.0
+offset_bottom = -0.012001
+text = "Fancy Text"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = -156.0
+offset_top = 259.0
+offset_right = -33.0
+offset_bottom = 299.0
+text = "༼ つ ◕_◕ ༽つ"

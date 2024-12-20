@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://rgaapix46oa8"]
+
+[ext_resource type="Texture2D" uid="uid://b0ltnq1cmtnsy" path="res://resources/sprites/good_puppy.png" id="1_fxfn0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmeyx"]
+size = Vector2(437, 752)
+
+[node name="winnie" type="RigidBody2D"]
+mass = 0.001
+gravity_scale = 0.0
+
+[node name="GoodPuppy" type="Sprite2D" parent="."]
+position = Vector2(223.865, 374.513)
+scale = Vector2(0.595475, 0.561159)
+texture = ExtResource("1_fxfn0")
+region_enabled = true
+region_rect = Rect2(1800.46, 1103.46, 736.615, 1324.15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(225.5, 374)
+shape = SubResource("RectangleShape2D_qmeyx")
